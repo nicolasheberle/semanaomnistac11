@@ -19,7 +19,7 @@ export default function Logon() {
                 <input placeholder="Sua ID" />
                 <buttom className="button" type="submit">entrar</buttom>
 
-                <Link to ="/register">
+                <Link className="back-link" to ="/register">
                     <FiLogIn size ={16} color='#E02041'/>
                     Não tenho cadastro
                 </Link>
